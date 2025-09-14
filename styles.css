@@ -16,14 +16,11 @@ nav{
 	width:100vw;
 	height:80px;
 	margin:10px 0;
-}
-nav ul{
-	list-style-type:none;
 	display:flex;
 	justify-content:space-around;
-	padding:32px;
+	align-items:center;
 }
-nav li a{
+nav a{
 	text-decoration:none;
 	color:white;
 	font-size:20px;
@@ -39,7 +36,7 @@ summary{
 	justify-content:space-between;
 	flex-wrap:wrap;
 }
-ul li{
+#actor ul li{
 	margin:5px;
 }
 #quote{
