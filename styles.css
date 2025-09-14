@@ -1,2 +1,75 @@
-
 /* Your CSS Code here. */
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background-color:floralwhite
+}
+header{
+	text-align:center;
+	margin:10px;
+}
+nav{
+	background-color:black;
+	width:100vw;
+	height:80px;
+	margin:10px 0;
+}
+nav ul{
+	list-style-type:none;
+	display:flex;
+	justify-content:space-around;
+	padding:32px;
+}
+nav li a{
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+}
+summary{
+	font-size:20px;
+	margin:10px 0;
+}
+#actor ul{
+	list-style-type:none;
+	font-weight:bold;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+ul li{
+	margin:5px;
+}
+#quote{
+	margin:20px;
+}
+#quote p{
+	font-size:20px;
+	margin:5px;
+}
+aside{
+	text-align:right;
+	font-weight:bold;
+}
+aside p{
+	display:inline;
+	margin:5px;
+	text-align:right;
+}
+footer p{
+	position:fixed;
+	bottom:0;
+	background-color:black;
+	color:white;
+	width:100vw;
+	text-align:center;
+	height:50px;
+	padding:10px;
+}
+
+
+
+
+
